@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
 var minimist = require('minimist')
-var repositories = require('../index')
+var findRepositories = require('../index')
 
 var argv = minimist(process.argv.slice(2))
 
