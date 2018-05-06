@@ -30,5 +30,5 @@ test('example', function (t) {
 function makeExampleDirectories (baseDir) {
   mkdirp.sync(path.join(baseDir, 'a', '.git'))
   mkdirp.sync(path.join(baseDir, 'b', '.git'))
-  mkdirp.sync(path.join(baseDir, 'c',))
+  mkdirp.sync(path.join(baseDir, 'c'))
 }
