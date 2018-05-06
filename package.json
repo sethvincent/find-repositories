@@ -1,0 +1,39 @@
+{
+  "name": "find-repositories",
+  "version": "0.0.0",
+  "description": "finds all git repositories in a directory",
+  "main": "index.js",
+  "bin": {
+    "find-repositories": "bin/index.js"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "node tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethvincent/find-repositories.git"
+  },
+  "author": "sethvincent <sethvincent@gmail.com> (https://sethvincent.com/)",
+  "keywords": [
+    "git",
+    "workshop",
+    "repositories",
+    "workspace"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sethvincent/find-repositories/issues"
+  },
+  "homepage": "https://github.com/sethvincent/find-repositories#readme",
+  "dependencies": {
+    "each-async": "^1.1.1",
+    "from2": "^2.3.0",
+    "git-state": "^4.0.0",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "tape": "^4.9.0"
+  }
+}
