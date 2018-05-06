@@ -1,6 +1,6 @@
 {
   "name": "find-repositories",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "finds all git repositories in a directory",
   "main": "index.js",
   "bin": {
