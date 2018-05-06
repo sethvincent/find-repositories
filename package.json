@@ -17,9 +17,7 @@
   "author": "sethvincent <sethvincent@gmail.com> (https://sethvincent.com/)",
   "keywords": [
     "git",
-    "workshop",
-    "repositories",
-    "workspace"
+    "repositories"
   ],
   "license": "Apache-2.0",
   "bugs": {
@@ -33,6 +31,8 @@
     "minimist": "^1.2.0"
   },
   "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2",
     "standard": "^11.0.1",
     "tape": "^4.9.0"
   }
